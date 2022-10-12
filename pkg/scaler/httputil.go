@@ -1,12 +1,13 @@
 package scaler
 
 import (
-	"k8s.io/client-go/rest"
 	"net/http"
+
+	"k8s.io/client-go/rest"
 )
 
 // DisableKeepAlive sets `DisableKeepAlive` to true on the transport that is use by the underline rest client
-// Fixes https://github.com/gardener/dependency-watchdog/issues/61
+// Fixes https://github.com/AleksandarSavchev/dependency-watchdog/issues/61
 func DisableKeepAlive(config *rest.Config) error {
 	transport, err := createTransportWithDisableKeepAlive(config)
 	if err != nil {

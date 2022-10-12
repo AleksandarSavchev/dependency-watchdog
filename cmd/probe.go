@@ -10,8 +10,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/gardener/dependency-watchdog/pkg/scaler"
-	scalerapi "github.com/gardener/dependency-watchdog/pkg/scaler/api"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/scaler"
+	scalerapi "github.com/AleksandarSavchev/dependency-watchdog/pkg/scaler/api"
 	gardenerclientset "github.com/gardener/gardener/pkg/client/extensions/clientset/versioned"
 	gardenerinformer "github.com/gardener/gardener/pkg/client/extensions/informers/externalversions"
 	"github.com/spf13/cobra"

@@ -42,7 +42,7 @@ go install golang.org/x/lint/golint@latest
 ###############################################################################
 
 PACKAGES="$(go list -e ./... | grep -vE '/tmp/|/vendor/')"
-LINT_FOLDERS="$(echo ${PACKAGES} | sed "s|github.com/gardener/dependency-watchdog|.|g")"
+LINT_FOLDERS="$(echo ${PACKAGES} | sed "s|github.com/AleksandarSavchev/dependency-watchdog|.|g")"
 
 # Execute static code checks.
 go vet ${PACKAGES}

@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/gardener/dependency-watchdog/pkg/scaler/api"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/scaler/api"
 	extensionscontroller "github.com/gardener/gardener/extensions/pkg/controller"
 	gardenerlisterv1alpha1 "github.com/gardener/gardener/pkg/client/extensions/listers/extensions/v1alpha1"
 	"github.com/prometheus/client_golang/prometheus"

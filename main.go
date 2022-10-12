@@ -5,7 +5,7 @@ SPDX-License-Identifier: Apache-2.0
 */
 package main
 
-import "github.com/gardener/dependency-watchdog/cmd"
+import "github.com/AleksandarSavchev/dependency-watchdog/cmd"
 
 func main() {
 	cmd.Execute()

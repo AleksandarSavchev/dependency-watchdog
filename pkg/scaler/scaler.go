@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gardener/dependency-watchdog/pkg/scaler/api"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/scaler/api"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/meta"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/client-go/tools/leaderelection/resourcelock"
 	componentbaseconfigv1alpha1 "k8s.io/component-base/config/v1alpha1"
 
-	"github.com/gardener/dependency-watchdog/pkg/multicontext"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/multicontext"
 	gardenerv1alpha1 "github.com/gardener/gardener/pkg/apis/extensions/v1alpha1"
 	gardenerinformers "github.com/gardener/gardener/pkg/client/extensions/informers/externalversions"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

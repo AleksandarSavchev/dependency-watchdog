@@ -1,4 +1,4 @@
-module github.com/gardener/dependency-watchdog
+module github.com/AleksandarSavchev/dependency-watchdog
 
 go 1.17
 

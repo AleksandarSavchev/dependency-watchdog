@@ -7,8 +7,8 @@ package scaler
 import (
 	"sync"
 
-	"github.com/gardener/dependency-watchdog/pkg/multicontext"
-	"github.com/gardener/dependency-watchdog/pkg/scaler/api"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/multicontext"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/scaler/api"
 	gardnerinformer "github.com/gardener/gardener/pkg/client/extensions/informers/externalversions"
 	gardenerlisterv1alpha1 "github.com/gardener/gardener/pkg/client/extensions/listers/extensions/v1alpha1"
 	"github.com/prometheus/client_golang/prometheus"

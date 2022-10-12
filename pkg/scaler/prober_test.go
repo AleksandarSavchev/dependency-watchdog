@@ -7,7 +7,7 @@ package scaler
 import (
 	"crypto/sha256"
 
-	"github.com/gardener/dependency-watchdog/pkg/scaler/api"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/scaler/api"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"

@@ -1,12 +1,13 @@
 package scaler_test
 
 import (
-	"github.com/gardener/dependency-watchdog/pkg/scaler"
+	"net/http"
+
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/scaler"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
-	"net/http"
 )
 
 var (

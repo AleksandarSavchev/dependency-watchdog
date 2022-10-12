@@ -66,7 +66,7 @@ First, you need to create a target folder structure before cloning and building 
 
 mkdir -p ~/go/src/github.com/gardener
 cd ~/go/src/github.com/gardener
-git clone https://github.com/gardener/dependency-watchdog.git
+git clone https://github.com/AleksandarSavchev/dependency-watchdog.git
 cd dependency-watchdog
 ```
 

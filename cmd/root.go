@@ -16,8 +16,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gardener/dependency-watchdog/pkg/restarter"
-	restarterapi "github.com/gardener/dependency-watchdog/pkg/restarter/api"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/restarter"
+	restarterapi "github.com/AleksandarSavchev/dependency-watchdog/pkg/restarter/api"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

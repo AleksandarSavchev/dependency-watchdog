@@ -7,8 +7,8 @@ package restarter
 import (
 	"time"
 
-	"github.com/gardener/dependency-watchdog/pkg/multicontext"
-	"github.com/gardener/dependency-watchdog/pkg/restarter/api"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/multicontext"
+	"github.com/AleksandarSavchev/dependency-watchdog/pkg/restarter/api"
 	"k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	listerv1 "k8s.io/client-go/listers/core/v1"
